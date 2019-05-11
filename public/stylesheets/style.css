@@ -1,0 +1,93 @@
+
+body {
+    padding: 50px;
+    font: 18px "Lucida Grande", Helvetica, "Times New Roman", sans-serif;
+    background: #000;
+}
+
+a {
+  color: #00B7FF;
+
+}
+
+ p{
+   color: darkgoldenrod;
+
+ }
+
+ h1 {
+    color: darkgoldenrod;
+ }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    /*color: #f2f2f2; */
+    color: #00B7FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: slategray;
+    color: white;
+}
+
+.gamedemo {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log-form {
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    /*background: #636b6f; */
+    padding: 30px;
+    top: 40%;
+    left: 35%;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    text-align: center;
+    background: navy;
+}
+
+.container{
+    color: goldenrod;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+button, input {
+    font-size: small;
+    line-height: 1.4em;
+    color: blue;
+    margin-bottom:1em;
+}
